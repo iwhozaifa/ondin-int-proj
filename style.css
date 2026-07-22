@@ -147,3 +147,17 @@ a {
   box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.3);
   ;
 }
+
+.content-4 {
+  display: grid;
+  gap: 20px;
+}
+
+.box-2 {
+  padding-left: 20px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.3);
+  border-left: solid 9px deepskyblue;
+  width: 70%;
+
+}
