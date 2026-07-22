@@ -27,7 +27,7 @@ body {
 
 .header .section-1 {
   display: grid;
-  grid-template-columns: 20px 2fr 1fr;
+  grid-template-columns: 20px 2fr;
   align-items: center;
   gap: 10px;
 }
@@ -35,6 +35,7 @@ body {
 .header .section-1 img {
   height: 30px;
   width: 30px;
+  padding-left: 5px;
 }
 
 .header .buttons {
@@ -48,7 +49,7 @@ body {
 
 .admin-info {
   display: grid;
-  grid-template-columns: repeat(2, 50px);
+  grid-template-columns: repeat(3, 50px);
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -62,9 +63,11 @@ body {
 
 .admin-info-2 {
   display: grid;
-  grid-template-columns: repeat(2, 100px);
-  gap: 20px;
+  grid-template-columns: 100px 250px;
+  gap: 50px;
   align-items: center;
+  font-size: 24px;
+  font-weight: 800;
 }
 
 .admin-info-2 img {
@@ -111,4 +114,36 @@ a {
   color: white;
   font-size: 16px;
   font-weight: 700;
+}
+
+
+
+.section-3 {
+  display: grid;
+  margin-left: 24px;
+  grid-template-columns: 2fr 1fr;
+}
+
+.content {
+  display: grid;
+  grid-row: 1/2;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  border-radius: 10px;
+}
+
+.section-3 .content h2 {
+  grid-column: 1/4;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  padding-left: 10px;
+  border-left: solid 9px deepskyblue;
+  box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.3);
+  ;
 }
